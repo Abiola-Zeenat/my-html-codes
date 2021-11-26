@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Hotel feedback form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Hotel Feedback Form</h1>
+
+        <p>Kindly answer the following questions</p>
+<!--this is for radio button-->
+        <h3>please select your gender</h3>
+                <input type="radio" id="Male" name="gender">
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="Female" name="gender">
+                <label for="female" >Female</label><br>
+
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label> <br>
+<!--this is for dropdown menu -->
+    <h3>please rate our service</h3>
+    <select name="feedback" id="">
+        <option value="5">Excellent</option>
+        <option value="4">Very Good</option>
+        <option value="5">Good</option>
+        <option value="2">Fair</option>
+        <option value="1">Poor</option>
+    </select> <br>
+        
+<!--this is for checkbox-->
+<h3>please select country(s) you have visited</h3>
+        <input type="checkbox"id="Nigeria">
+        <label for="Nigeria">Nigeria</label> <br>
+
+        <input type="checkbox"id="Ghana">
+        <label for="Ghana">Ghana</label> <br>
+
+        <input type="checkbox"id="South Africa">
+        <label for="South Africa">South Africa</label> <br>
+
+        <input type="checkbox"id="America">
+        <label for="America">America</label> <br>
+
+        <input type="checkbox"id="Canada">
+        <label for="Canada">Canada</label>
+<!--this is for text area--> 
+        <h3>Do you have any other message for us?</h3>
+        <textarea cols="30" rows="10" aria-placeholder="enter your message here">         
+    </textarea> <br>         
+    <input type="submit" value="send">
+    </form>
+</body>
+</html>
